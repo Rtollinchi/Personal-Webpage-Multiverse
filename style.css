@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-/* intro-page styling */
-
 body {
   font-family: Arial, sans-serif;
   background: #000;
@@ -131,4 +129,40 @@ nav a:hover {
   position: relative;
 }
 
+.experience-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  margin-top: 80px;
+}
 
+.experience {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: rgb(0, 0, 0, 0.5);
+  max-width: 100%;
+  text-align: left;
+  color: #fff;
+}
+
+.experience h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff4500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.experience h2 {
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color:  #ff4500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.experience ul {
+  list-style-type: none;
+  padding-left: 0;
+}
