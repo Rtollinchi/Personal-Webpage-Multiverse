@@ -63,6 +63,7 @@ nav a:hover {
   font-size: 40px;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: #ff4500;
 }
 
 .home p {
@@ -158,11 +159,68 @@ nav a:hover {
   font-size: 28px;
   margin-top: 30px;
   margin-bottom: 15px;
-  color:  #ff4500;
+  color: #ff4500;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .experience ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.intro h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff4500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.intro p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  margin: 0;
+}
+
+.project-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: left;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  color: #ff4500;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.project-card a {
+  color: #ffeb3b;
+  text-decoration: none;
 }
