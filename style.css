@@ -188,6 +188,7 @@ nav a:hover {
 .intro p {
   font-size: 18px;
   margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .project-grid {
